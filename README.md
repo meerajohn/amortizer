@@ -1,6 +1,6 @@
 # Amortizer
 
-TODO: Write a gem description
+A simple gem to calculate amortizing loan payments,as part of training at Samyukti
 
 ## Installation
 
@@ -18,11 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    require 'amortizer'
+
+    loan = Amortizer::Loan.new(100000, 10, 100)
+    loan.payment
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/amortizer/fork )
+1. Fork it ( http://github.com/meerajohn/amortizer/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
